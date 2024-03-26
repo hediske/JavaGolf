@@ -147,7 +147,7 @@ public class loginAdmin extends javax.swing.JFrame {
                 
 
             }
-            catch(SQLException ex){
+            catch(Exception ex){
                 JOptionPane.showMessageDialog(null,"Probleme dans la base de données");
             }
         }

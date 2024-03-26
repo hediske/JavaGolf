@@ -194,7 +194,7 @@ public class loginMembre extends javax.swing.JFrame {
 
             }
 
-            } catch (SQLException ex) {
+            } catch (Exception ex) {
                 System.out.println("Probleme dans la base de données"+ex);
             }
         }
